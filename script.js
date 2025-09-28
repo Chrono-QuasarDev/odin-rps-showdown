@@ -38,9 +38,9 @@ function playRound(humanChoice, computerChoice) {
   }
 }
 
+alert("Welcome to Rock, Paper, Scissors!\nYou will play 5 rounds against the computer.\nCheck in the console to see your results after each round.");
 
 function playGame() {
-  alert("Welcome to Rock, Paper, Scissors!\nYou will play 5 rounds against the computer.\nCheck in the console to see your results after each round.")
 
   // These variables will store the game scores.
   let humanScore = 0;
