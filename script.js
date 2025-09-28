@@ -13,7 +13,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-  let choice = prompt('What\'s your choice:').toLowerCase(); // It takes an input form the user.
+  let choice = prompt('Choose Rock, Paper, or Scissors:').toLowerCase(); // It takes an input form the user.
   return choice;
 }
 
@@ -40,6 +40,8 @@ function playRound(humanChoice, computerChoice) {
 
 
 function playGame() {
+  alert("Welcome to Rock, Paper, Scissors!\nYou will play 5 rounds against the computer.\nCheck in the console to see your results after each round.")
+
   // These variables will store the game scores.
   let humanScore = 0;
   let computerScore = 0;
@@ -75,5 +77,5 @@ function playGame() {
   }
 }
 
-
-playGame();
+console.log("Welcome once again to Rock, Paper, Scissors!");
+console.log("Type `playgame()` in the console to start the game");
